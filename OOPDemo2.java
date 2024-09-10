@@ -100,7 +100,7 @@ public class OOPDemo2 {
         // Demonstrating Encapsulation
         System.out.println("Car brand: " + car.getBrand());
         car.setYear(2023); // Year updated
-        car.setYear(1800); // Invalid year, not updated
+        // car.setYear(1800); // Invalid year, not updated
 
         // Demonstrating Inheritance
         ((Car) car).accelerate();
