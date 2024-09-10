@@ -86,7 +86,7 @@ class Developer extends Employee {
 }
 
 // Main class to demonstrate all concepts
-public class EmployeeManagementDemo {
+public class OOPDemo1 {
     public static void main(String[] args) {
         // Polymorphism: treating Manager and Developer as Employee
         Employee manager = new Manager("Alice", 1, 80000, 10000);
