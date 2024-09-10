@@ -80,7 +80,7 @@ class Motorcycle extends Vehicle {
 }
 
 // Main class to demonstrate all concepts
-public class OOPDemo {
+public class OOPDemo2 {
     public static void main(String[] args) {
         // Polymorphism: treating Car and Motorcycle as Vehicle
         Vehicle car = new Car("Toyota", 2022, 4);
