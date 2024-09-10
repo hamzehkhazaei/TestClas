@@ -56,6 +56,10 @@ class Car extends Vehicle {
     public void accelerate(int speed) {
         System.out.println("Car accelerating to " + speed + " mph");
     }
+
+    public void displayInfo() {
+        System.out.println("This " + getBrand() + " car was made in " + year + " and has" + numberOfDoors + " doors.");
+    }
 }
 
 // Motorcycle class demonstrating Inheritance and Polymorphism
@@ -75,7 +79,10 @@ class Motorcycle extends Vehicle {
 
     // Method demonstrating protected field access
     public void displayInfo() {
-        System.out.println("This " + getBrand() + " motorcycle was made in " + year);
+        if (hasSidecar)
+            System.out.println("This " + getBrand() + " motorcycle was made in " + year + " and has sideCar.");
+        else
+        System.out.println("This " + getBrand() + " motorcycle was made in " + year + " and doesn't have sideCar.");
     }
 }
 
